@@ -161,7 +161,7 @@ export default class DragNumberInput extends React.Component<DragNumberInputProp
                 className={classnames('_drag-number-input', this.props.className)}
                 value={this.state.value}
                 onBlur={this.onBlur}
-                onChange={this.valueChanged}
+                onInput={this.valueChanged}
                 onKeyDown={this.onKeyDown}
                 onMouseDown={this.onMouseDown}
                 onMouseMove={this.onMouseMove}
